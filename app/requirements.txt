@@ -20,3 +20,5 @@ aiohttp
 beautifulsoup4
 lxml
 langchain_huggingface
+langchain_community
+langchain
