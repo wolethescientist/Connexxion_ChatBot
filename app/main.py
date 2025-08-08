@@ -9,9 +9,11 @@ from typing import List, Optional
 import asyncio
 import json
 
-from . import models, schemas, security
-from .database import engine, get_db
-from .chatbot import ChatbotProcessor
+import models
+import schemas
+import security
+from database import engine, get_db
+from chatbot import ChatbotProcessor
 
 # Create database tables
 models.Base.metadata.create_all(bind=engine)

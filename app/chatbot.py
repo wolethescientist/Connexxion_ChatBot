@@ -13,7 +13,7 @@ import pickle
 from functools import lru_cache
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
-from .website_processor import WebsiteProcessor
+from website_processor import WebsiteProcessor
 
 load_dotenv()
  
