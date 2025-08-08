@@ -19,3 +19,4 @@ pyjwt
 aiohttp
 beautifulsoup4
 lxml
+langchain_huggingface
